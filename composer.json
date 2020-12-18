@@ -1,0 +1,44 @@
+{
+    "name": "sadegh19b/blade-brand-icons",
+    "description": "A package to easily make use of Popular Brand Icons in your Laravel Blade views.",
+    "keywords": ["Blade", "Brand Icons", "Laravel"],
+    "homepage": "https://github.com/sadegh19b/blade-brand-icons",
+    "license": "MIT",
+    "authors": [{
+        "name": "Sadegh Barzegar",
+        "email": "sadegh19b@gmail.com",
+        "role": "Developer"
+    }],
+    "require": {
+        "php": "^7.3|^8.0",
+        "blade-ui-kit/blade-icons": "^0.5.0",
+        "simple-icons/simple-icons": "^4.2",
+        "illuminate/support": "^7.14|^8.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^5.0|^6.0",
+        "phpunit/phpunit": "^8.0|^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sadegh19b\\BladeBrandIcons\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sadegh19b\\BladeBrandIcons\\BladeBrandIconsServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
