@@ -8,20 +8,6 @@ For a full list of available icons see and preview them at [simpleicons.org](htt
 
 - PHP 7.3 or higher
 - Laravel 7.14 or higher
-- Blade Icons Package
-- Simple Icons Package
-
-## Requirements Installation
-
-### Blade Icons
-```bash
-composer require blade-ui-kit/blade-icons
-```
-
-### Simple Icons
-```bash
-composer require simple-icons/simple-icons
-```
 
 ## Installation
 
