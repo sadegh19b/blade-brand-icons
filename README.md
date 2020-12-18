@@ -34,20 +34,21 @@ composer require sadegh19b/blade-brand-icons
 Icons can be used a self-closing Blade components which will be compiled to SVG icons:
 
 ```blade
-<x-brand-apple/>
+<x-brand-apple width="10" height="10"/>
 ```
 
 You can also pass classes to your icon components:
 
 ```blade
-<x-brand-apple class="text-white"/>
+<x-brand-apple class="w-8 h-8 text-white fill-current"/>
 ```
 
 And even use inline styles:
 
 ```blade
-<x-brand-apple style="color: #fff"/>
+<x-brand-apple class="w-8 h-8" style="color: #fff"/>
 ```
+#### Note: if you want to be change icon color, you should be add ```svg{fill:currentColor}``` in your stylesheets file.
 
 ### Raw SVG Icons
 
