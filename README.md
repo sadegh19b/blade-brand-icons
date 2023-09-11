@@ -4,6 +4,9 @@ A package to easily make use of [Brand Icons (Simple Icons)](https://github.com/
 
 For a full list of available icons see and preview them at [simpleicons.org](https://simpleicons.org/).
 
+> **Warning**<br>
+This package is abandoned and no longer maintained. I suggest using the [codeat3/blade-simple-icons]([https://simpleicons.org/](https://github.com/codeat3/blade-simple-icons)) package instead.
+
 ## Requirements
 
 - PHP 7.3 or higher
